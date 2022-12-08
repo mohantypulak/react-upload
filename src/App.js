@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import PizzaHut from "./components/PizzaHut";
+import {Provider} from 'react-redux'
+import {store} from './redux/store'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <nav className="navbar navbar-nav bg-primary">
+        <a href="/" className="navbar-brand text-white">React redux</a>
+     </nav>
+        <Provider store={store}>
+            <PizzaHut/>
+        </Provider>
     </div>
   );
 }
