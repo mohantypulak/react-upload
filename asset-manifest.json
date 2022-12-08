@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-upload.git/static/css/main.5c28c277.css",
+    "main.js": "/react-upload.git/static/js/main.5d5b29eb.js",
+    "static/js/787.e82ee4a8.chunk.js": "/react-upload.git/static/js/787.e82ee4a8.chunk.js",
+    "static/media/pizza.jpg": "/react-upload.git/static/media/pizza.2fa206f88406f15af42d.jpg",
+    "static/media/logo.svg": "/react-upload.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-upload.git/index.html",
+    "main.5c28c277.css.map": "/react-upload.git/static/css/main.5c28c277.css.map",
+    "main.5d5b29eb.js.map": "/react-upload.git/static/js/main.5d5b29eb.js.map",
+    "787.e82ee4a8.chunk.js.map": "/react-upload.git/static/js/787.e82ee4a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c28c277.css",
+    "static/js/main.5d5b29eb.js"
+  ]
+}
